@@ -30,6 +30,7 @@ a {
   align-items: center;
   font-size: 20px;
   border: 2px solid aqua;
+  width: 100%;
 }
 
 .logo {
@@ -295,57 +296,6 @@ margin: 50%;
 
 }
 
-  /* profile for 400px mobile responsive view  */
-
-  /* index + profile page  */
-
-/* .profile {
-  border: 3px solid red;
-  width: 100%;
-}
-
-.profile-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: blue solid 3px;
-  color: black;
-}
-
-.profile-text h1{
-  display: flex;
-  justify-content: bottom;
-  color:black;
-  font-size: 10px;
-  border: yellow solid 10px;
-} 
-
-  .profile-img{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    border: white solid 10px;
-    width: 80%;
-  }
-
-  .social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
-    border: yellow solid 10px;
-  }
-  
-  .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    text-align: right;
-    border: brown solid 20px;
-  } */
-
-
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
@@ -353,18 +303,7 @@ margin: 50%;
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
+
 
 .profile {
     width: 100%;
@@ -386,9 +325,6 @@ margin: 50%;
   } 
   
   .profile-img{
-      /* display:flex;
-      flex-direction: row; */
-      /* justify-content: center; */
       border: white solid 10px;
       width: 100%;
     }
@@ -401,9 +337,6 @@ margin: 50%;
     }
     
   .footer {
-      /* display: flex;
-      justify-content: center;
-      align-items: center; */
       font-size: 15px;
       padding-top: 80px;
       justify-content: center;
@@ -439,45 +372,13 @@ margin: 50%;
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  /* .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
- */
-
-
-  /* Index + profile page for desktop*/ 
-
-/* .profile {
-  width: 100%;
-} */
-
-.profile-container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  border: blue solid 3px;
-  color: black; */
-}
 
 .profile-text h1{
   color:black;
   font-size: 30px;
 }
 
-/* .profile-img {
-  display:flex;
-} */
 
-/* about me page for desktop */
 
 .aboutmecontainer{
   width: 100%;
